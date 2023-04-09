@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.text-block {
+  padding: 40px 40px 45px 40px;
+}
+/* адапция по панели */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3);
+}
+.card {
+  margin: 1.5em;
+}
+.card > a > img {
+  width: 100%;
+}
+@media (max-width: 800px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5);
+  }
+}
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(9);
+  }
+} /* адапция по панели */
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 7px;
+  border-style: double;
+}
+.p {
+  border-style: solid;
+}
+.my-image {
+  padding: 10px;
+}
+.btn-primary {
+  background-color: rgb(209, 134, 188);
+}
+/* фон для прайсинг */
+.menu {
+  width: 80%;
+  background-color: rgb(212, 132, 132);
+}
+.photo,
+.text {
+  width: 15%;
+  float: left;
+}
+.linksoncontacts {
+  text-align: center;
+}
+.my-heading {
+  text-align: left;
+  width: 50%;
+}
+.employees {
+  text-align: right;
+  width: 50%;
+}

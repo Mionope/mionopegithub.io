@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- подключение css boostrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="style/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="text-block">
+      <h2>GAA COSMETICS</h2>
+      <img
+        class="logo img-responsive"
+        src="image/lili_files/abstract-mark_1348452.svg"
+        width="100"
+        height="50"
+        alt="Cosmetic Capital Logo"
+      />
+
+      <!--шабка панели-->
+      <header>
+        <nav
+          class="navbar navbar-expand-lg navbar-light"
+          style="background-color: #fff0f5"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Cosmetics</a>
+            <!--кнопка появляется когда меньшается до панели телефона-->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span></button
+            ><!--кнопка-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="lifehacks.html"
+                    >Lifehacks for makeup</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Makeup
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li>
+                      <a class="dropdown-item" href="health.html"
+                        >For skin health</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="forhairs.html"
+                        >For hairs</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="forlips.html">Lips</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="shodow.html">Shadows</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="foreyes.html">For eyes</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="for skin.html"
+                        >Smoothing the health</a
+                      >
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!--делает отступ для блока-->
+      <div style="padding: 50px 45px 70px">
+        <h2>Brands</h2>
+        <article class="item"><p>The world's most famous brand</p></article>
+
+        <ul
+          style="
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            border-style: solid;
+          "
+        >
+          <li style="display: inline-block; padding: 5px">L'Oreal Paris</li>
+          <li style="display: inline-block; padding: 5px">
+            Maybelline New York
+          </li>
+          <li style="display: inline-block; padding: 5px">Estee Lauder</li>
+          <li style="display: inline-block; padding: 5px">Chanel</li>
+          <li style="display: inline-block; padding: 5px">Dior</li>
+          <li style="display: inline-block; padding: 5px">Lancome</li>
+          <li style="display: inline-block; padding: 5px">MAC Cosmetics</li>
+          <li style="display: inline-block; padding: 5px">NYX</li>
+          <li style="display: inline-block; padding: 5px">Kylie Cosmetics</li>
+          <li style="display: inline-block; padding: 5px">Bobbi Brown</li>
+        </ul>
+
+        <img
+          src="image/maccosmetics.jpg"
+          alt="mac cosmetics"
+          width="300px"
+          height="300px"
+        />
+        <img
+          src="image/kylie cosmetics lip kits.webp"
+          alt="kylie"
+          width="300px"
+          height="300px"
+        />
+        <img
+          src="image/dior cosmetics.webp"
+          alt="dior"
+          width="300px"
+          height="300px"
+        />
+      </div>
+
+      <!--основной контент-->
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem">
+                <img src="image/cream.webp" class="card-img-top" alt="cream" />
+                <div class="card-body">
+                  <h5 class="card-title">For skin health</h5>
+                  <p class="card-text">
+                    creams for the face and for hands and everything else.
+                  </p>
+                  <a href="health.html" class="btn btn-primary">watch now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <img
+                  src="image/fondation.jpg"
+                  class="card-img-top"
+                  alt="fondation"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Smoothing the health</h5>
+                  <p class="card-text">
+                    foundation and everything else for smoothing the skin.
+                  </p>
+                  <a href="for skin.html" class="btn btn-primary">watch now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem">
+                <img src="image/lash.jpg" class="card-img-top" alt="lash" />
+                <div class="card-body">
+                  <h5 class="card-title">Mascara</h5>
+                  <p class="card-text">mascara and everything for the eyes.</p>
+                  <a href="foreyes.html" class="btn btn-primary">watch now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem">
+                <img
+                  src="image/lipsticks.jpg"
+                  class="card-img-top"
+                  alt="lipsticks"
+                />
+                <div class="card-body" style="width: 18rem">
+                  <h5 class="card-title">For lips</h5>
+                  <p class="card-text">lipsticks and all for lips.</p>
+                  <a href="forlips.html" class="btn btn-primary">watch now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem">
+                <img src="image/teni.jpg" class="card-img-top" alt="teni" />
+                <div class="card-body">
+                  <h5 class="card-title">Shadows</h5>
+                  <p class="card-text">shadows of different firms and forms.</p>
+                  <a href="shodow.html" class="btn btn-primary">watch now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card" style="width: 18rem">
+                <img src="image/oils.webp" class="card-img-top" alt="oils" />
+                <div class="card-body">
+                  <h5 class="card-title">For hairs</h5>
+                  <p class="card-text">
+                    oils and shampoos and everything else.
+                  </p>
+                  <a href="forhairs.html" class="btn btn-primary">watch now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--служебная информатция-->
+      <footer></footer>
+    </div>
+
+    <!--jslinks on bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

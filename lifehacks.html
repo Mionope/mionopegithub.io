@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- подключение css boostrap-->
+     <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+     crossorigin="anonymous"
+   />
+   <link href="style/style.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+    <div class="text-block">
+        <h2>GAA COSMETICS</h2>
+      <img
+        class="logo img-responsive"
+        src="image/lili_files/abstract-mark_1348452.svg"
+        width="100"
+        height="50"
+        alt="Cosmetic Capital Logo"
+      />
+   <!--шабка панели-->
+   <header>
+     <nav
+       class="navbar navbar-expand-lg navbar-light"
+       style="background-color: #fff0f5"
+     >
+       <div class="container-fluid">
+         <a class="navbar-brand" href="#">Cosmetics</a>
+         <!--кнопка появляется когда меньшается до панели телефона-->
+         <button
+           class="navbar-toggler"
+           type="button"
+           data-bs-toggle="collapse"
+           data-bs-target="#navbarSupportedContent"
+           aria-controls="navbarSupportedContent"
+           aria-expanded="false"
+           aria-label="Toggle navigation"
+         >
+           <span class="navbar-toggler-icon"></span></button
+         ><!-- бургер кнопка-->
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item">
+               <a class="nav-link " aria-current="page" href="index.html"
+                 >Home</a
+               >
+             </li>
+             <li class="nav-item">
+               <a class="nav-link active" aria-current="page" href="lifehacks.html"
+                 >Lifehacks for makeup</a
+               >
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="pricing.html">Pricing</a>
+             </li>
+             <li class="nav-item dropdown">
+               <a
+                 class="nav-link dropdown-toggle"
+                 href="#"
+                 id="navbarDropdown"
+                 role="button"
+                 data-bs-toggle="dropdown"
+                 aria-expanded="false"
+               >
+                 Makeup
+               </a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                 <li><a class="dropdown-item" href="health.html">For skin health</a></li>
+                 <li><a class="dropdown-item" href="forhairs.html">For hairs</a></li>
+                 <li><a class="dropdown-item" href="forlips.html">Lips</a></li>
+                 <li><a class="dropdown-item" href="shodow.html">Shadows</a></li>
+                 <li><a class="dropdown-item" href="foreyes.html">For eyes</a></li>
+                 <li>
+                   <a class="dropdown-item" href="for skin.html">Smoothing the health</a>
+                 </li>
+                 <li><hr class="dropdown-divider" /></li>
+               </ul>
+             </li>
+           </ul>
+           <form class="d-flex">
+             <input
+               class="form-control me-2"
+               type="search"
+               placeholder="Search"
+               aria-label="Search"
+             />
+             <button class="btn btn-outline-success" type="submit">
+               Search
+             </button>
+           </form>
+         </div>
+       </div>
+     </nav>
+   </header>
+
+   <!--основной контент-->
+   <section>
+    <h1>Makeup Life Hacks</h1>
+      <nav>
+
+        <ul>
+          <li><a href="#intro" class="my-link">Introduction</a></li>
+          <li><a href="#tips" class="my-link">Recommendations</a></li>
+          <li><a href="#products" class="my-link">Products</a></li>
+          <li><a href="#videos" class="my-link">Videos</a></li>
+          <li><a href="#contact" class="my-link">Contacts</a></li>
+        </ul>
+        <style>
+            .my-link {
+              color: rgb(255, 186, 186); 
+            }
+            </style>
+      </nav>
+    </header>
+    
+    <main>
+      <section id="intro">
+        <h2>Introduction</h2>
+        <p>Welcome to our website about makeup life hacks! Here you will find a lot of useful tips and recommendations that will help you look beautiful and well-groomed.</p></section>
+      
+      <section id="tips">
+        <h2>Recommendations</h2>
+        <ul>
+          <li>Use a makeup base for a longer lasting effect</li>
+          <li>Choose the right skin tone to avoid blush or too pale shade</li>
+          <li>Do not forget about contouring and highlighter to create volume on the face</li>
+          <li>Use a lipstick with a glossy finish to visually enlarge your lips</li>
+          <li>Do not apply too much blush - it is better to add it gradually</li>
+        </ul>
+      </section>
+      
+      <section id="products">
+        <h2>Products</h2>
+        <ul>
+            <li>BB cream</li>
+            <li>Corrector</li>
+            <li>Powder</li>
+            <li>Blush</li>
+            <li>Lipstick</li>
+        </ul>
+      </section>
+      <section id="videos">
+<h2>Videos</h2>
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9K_CZizKdVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+</div>
+<figcaption>Beauty Secrets</figcaption> <br><br>
+<div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XMCZEJVlyRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<figcaption>Skin Care</figcaption> 
+      </section>
+      
+      <section id="contact">
+        <h2>Contacts</h2>
+<p>If you have any questions or suggestions, please email us at our email: <a href="mailto:info@makeuplifehacks.com ">info@makeuplifehacks.com </a>.</p>
+      </section>
+    </main>
+    
+    <footer>
+   </section>
+
+   <!--служебная информатция-->
+   <footer></footer>
+</div>
+
+   <!--jslinks on bootstrap-->
+   <script
+     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+     crossorigin="anonymous"
+   ></script>
+</body>
+</html>
